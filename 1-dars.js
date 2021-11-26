@@ -334,15 +334,6 @@
 
 // var ar =[1,2,3,'-11','olma',4,'ananas',5,3,6,7 ]
 // console.log(ar.filter((value)=>value>=0||value<=0));
-ar =[1,2,3,3,4,5]
-// console.log(ar.map((value)=>value + value++))
-for (let i = 0; i < ar.length; i++) {
-    // console.log(ar[i]);
-    // console.log(ar[i]+ ar[i]++);
-    j=0
-    for (let j = 0; j < i; j++) {
-    }
-    console.log(i+j);
-    // console.log(ar[i]+ar[i]);
-}
+ar =[1,2,3,3,4,5,2]
+ console.log(ar.reduce((val,cur) => val + cur));
 
