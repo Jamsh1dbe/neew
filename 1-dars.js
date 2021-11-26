@@ -128,7 +128,7 @@
 // for (let i = 0; i < 100; i++) {
 //     // const i=0
 //     for (let j = 1; j < 100; j++) {
-//         i%2===0 ?console.log(i,'juft'):console.log(i,'toq');
+//         i%2===0 ?console.log(i,'juft'):console.log(i,'toq'); 
         
 //     }
 // }
@@ -175,4 +175,50 @@
 //     i%2===0?console.log(i, 'juft'):console.log(i,'toq');    
 // }
 // var a='123'
- 
+//  var a=  ('122.12'+3);
+//  console.log(a);
+// console.log(eval('12+3'));
+// console.log(ar.sort((a,b)=>b-a));
+// ar.pop()
+// ar.push(12,33)
+// ar.shift()
+// ar.unshift(12)
+// var arr = arr.unshift(ar)
+// console.log(ar.map((value, index)=>value=arr.unshift(value[index])))
+// for (let i = 0; i < ar.length; i++) {
+//     console.log(arr.unshift(ar[i]));    
+// }
+// var fruit=['olma', 'ananas', 12,'12','kiwi',]
+// let res=fruit.filter((value)=>{
+    //     return typeof value===typeof'number'; 
+    // });console.log(res);
+
+
+// var ar =[1,0,2,3,'12','olma',4,'ananas',5,3,6,7 ]
+// var a=ar.filter((value)=>value>=0||value<=0).sort((a,b)=>a-b);
+
+// b=0
+// for (let i = 0; i < a.length; i++) {
+//     b+=(a[i]*1)
+// }
+// console.log(b)
+// for (let i = 1; i< 10; i++){
+//     for (let j = 1; j < 10; j++) {
+//         console.log(`${i}x${j}=${i*j}`); 
+//     }
+//     console.log('==========');       
+// }
+
+// [...new Array(20)].map((index,value)=>{
+//     console.log(index,value);
+// })
+
+// var fruit=['apple','Ananas',12,'Orange','Banana','kiwi'].join()
+// a=0;
+// b=0
+// for (let i = 0; i < fruit.length; i++) {
+//     (fruit[i]==='a'||fruit[i]==='A'  )&&a++  
+//     (fruit[i]==='b'||fruit[i]==='B'  )&&b++  
+// }
+// console.log(a,'=a');
+// console.log(b,'=b');
