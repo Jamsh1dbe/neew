@@ -213,12 +213,12 @@
 //     console.log(index,value);
 // })
 
-// var fruit=['apple','Ananas',12,'Orange','Banana','kiwi'].join()
-// a=0;
-// b=0
-// for (let i = 0; i < fruit.length; i++) {
-//     (fruit[i]==='a'||fruit[i]==='A'  )&&a++  
-//     (fruit[i]==='b'||fruit[i]==='B'  )&&b++  
-// }
-// console.log(a,'=a');
-// console.log(b,'=b');
+var fruit=['apple','Ananas',12,'Orange','Banana','kiwi'].join()
+a=0;
+b=0
+for (let i = 0; i < fruit.length; i++) {
+    (fruit[i]==='a'||fruit[i]==='A'  )&&a++  
+    (fruit[i]==='b'||fruit[i]==='B'  )&&b++  
+}
+console.log(a,'=a');
+console.log(b,'=b');
