@@ -213,12 +213,136 @@
 //     console.log(index,value);
 // })
 
-var fruit=['apple','Ananas',12,'Orange','Banana','kiwi'].join()
-a=0;
-b=0
-for (let i = 0; i < fruit.length; i++) {
-    (fruit[i]==='a'||fruit[i]==='A'  )&&a++  
-    (fruit[i]==='b'||fruit[i]==='B'  )&&b++  
+// var fruit=['apple','Ananas',12,'Orange','Banana','kiwi'].join()
+// a=0;
+// b=0
+// for (let i = 0; i < fruit.length; i++) {
+//     (fruit[i]==='a'||fruit[i]==='A'  )&&a++  
+//     (fruit[i]==='b'||fruit[i]==='B'  )&&b++  
+// }
+// console.log(a,'=a');
+// console.log(b,'=b');
+// var ar =[1,0,2,3,'12','olma',4,'ananas',5,3,6,7 ]
+
+// const sum2 = (ar) => {
+//     let yigindi=0;
+//     ar.forEach(i => {
+//     if(Number(i)) yigindi+=Number(i)
+//    })
+//    console.log(yigindi)
+//    }
+   
+// sum2(ar)
+
+// ar =[1,2,3,3,'12',3,44,'12',4,'ssdd',4,];
+// arr=[]
+// ar.map((value)=>arr.unshift(value));
+// console.log(arr);
+// for (let i = ar.length-1; i=0; i--) {
+//     arr.push(ar[i])    
+// }
+// console.log(arr);
+// console.log((`${2}+${2}`)*2); 
+
+// var a=10;
+// let b=21;
+// var a;
+// console.log(a,b);
+
+// console.log(`${2}X${2}`*3);
+
+
+// var a=10;
+// let b=21;
+// var a;
+// console.log(a,b);
+// var a 
+
+// var a=0
+// function getdata(arr,num){
+//     for (let i = 0; i < arr.length; i++) {
+
+        // console.log(a=arr[i]%i===2)
+        // console.log(a+=arr[i]%a[i]===2);
+        // a++  
+        // console.log(a);
+        // console.log(a);  
+        // (arr[i]%i===num&&a++)?console.log(a):console.log('hato');
+//     }
+// }
+// getdata([1,3,2,2,],2)
+
+// var data=[
+//     {
+//         id:1,
+//         name:'Asad',
+//         status:'student',
+//         rang:'yashil'
+
+//     },
+//     {
+//         id:1,
+//         name:'Asad',
+//         status:'student',
+//         rang:'yashil'
+
+//     },
+   
+// ]
+// a=0
+// s=0
+// data.map((value)=>{
+
+//     var ne=Object.values(value).join();
+//     for (let i = 0; i < ne.length; i++) {
+//     // (ne[i]=='a'||ne[i]=='A') && a++
+//     if(ne[i] == 'a' || ne[i] == 'A'){
+//        a++
+//     } 
+    
+//     // (ne[i]=='s'|| ne[i]=='S') && s++ 
+// }
+// })
+// console.log(a);
+// // console.log(ne);
+// // var ne =Object.values(data).map(([id, value],index)=>
+// // {
+// //     console.log(value);
+// //     // return value
+// // })
+// // var ne=Object.values(data[0]).join()
+// // for (let i = 0; i < ne.length; i++) {
+// //     (ne[i]==='a'||ne[i]==='A') && a++ 
+// //     (ne[i]==='s'|| ne[i]==='S') && s++ 
+// // }
+// // console.log(a);
+// // console.log(s);
+// // console.log(ne);
+// // a=0
+// // s=0
+// // Object.values(data.map((value)=> {
+// //     console.log(value);
+// // // return value;
+// // }))
+
+// // Object.values((data)=>{
+
+// // })
+
+// var ar =[1,2,3,'-11','olma',4,'ananas',5,3,6,7 ]
+// console.log(ar.filter((value)=>value>=0&&value<=0));
+
+// var ar =[1,2,3,'-11','olma',4,'ananas',5,3,6,7 ]
+// console.log(ar.filter((value)=>value>=0||value<=0));
+ar =[1,2,3,3,4,5]
+// console.log(ar.map((value)=>value + value++))
+for (let i = 0; i < ar.length; i++) {
+    // console.log(ar[i]);
+    // console.log(ar[i]+ ar[i]++);
+    j=0
+    for (let j = 0; j < i; j++) {
+    }
+    console.log(i+j);
+    // console.log(ar[i]+ar[i]);
 }
-console.log(a,'=a');
-console.log(b,'=b');
+
