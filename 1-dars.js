@@ -334,6 +334,75 @@
 
 // var ar =[1,2,3,'-11','olma',4,'ananas',5,3,6,7 ]
 // console.log(ar.filter((value)=>value>=0||value<=0));
-ar =[1,2,3,3,4,5,2]
- console.log(ar.reduce((val,cur) => val + cur));
+// ar =[1,2,3,3,4,5,2]
+//  console.log(ar.reduce((val,cur) => val + cur));
+
+//    const myobj={
+//        name: 'jonh',
+//        age: '12',
+//        cars: 'wwew'
+//    }
+// //    console.log(myobj.cars[0].models[2]);
+// var a=Object.keys(myobj)
+// console.log(a);
+// var b=Object.values(myobj)
+// console.log(b);
+
+// ar =[
+//     {
+//         id: 1,
+//         year: 2011,
+//         name: 'Eshmat',
+//         status: 'student',
+//         key: 'test',
+//     },
+//     {
+//         id: 2,
+//         year: 2010,
+//         name: 'Eshmat akasi',
+//         status: 'student',
+//         key: 'test',
+//     },
+//     {
+//         id: 3,
+//         year: 2012,
+//         name: 'Toshmat',
+//         status: 'student',
+//         key: 'test',
+//     },
+// ];
+// const ondelete=(id)=>ar.filter((value)=>value.id!==id)
+// console.log(ondelete(2));
+////////////////////////////////////////
+// const onsort=()=>ar.sort((a,b)=>a.year-b.year)
+// console.log(onsort());
+// const kk=( key,value)=>{  d
+//     const res=[];
+//     ar.map((val)=>{
+//         if(val[key].includes( value)){
+//             for (const kalit in val) {
+//                 if(kalit===key){
+//                     res.push(val)
+//                 }                
+//             }
+//         }
+//         });
+//         return res;
+//     };
+// console.log(kk('name','Eshmat'));
+
+
+// var  ar =[3,2,3,6,7,2,1].sort()
+// var a= parseInt(ar.length/2)
+// if (ar.length%2===0) {
+//     console.log(ar.splice(a-1,2));
+// }else{console.log(ar.splice(a,1));}
+// console.log(ar.length);
+// console.log(a);
+
+// var ar =[1,23,3,4,4,5,4,5,6,6]
+
+// Object.assign(
+
+// )
 
